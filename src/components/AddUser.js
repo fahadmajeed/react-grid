@@ -50,7 +50,7 @@ export const AddUser = ({ rows, onAdd }) => {
     <div>
       <h3 className="heading">List of participants</h3>
       <h3 className="heading">
-        { addNotify && (<div className={classes.root + " success-wrapper"}>
+        { addNotify && (<div className={classes.root + " success__wrapper"}>
           <Alert variant="outlined" severity="success">
             {addNotify}
           </Alert>
